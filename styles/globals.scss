@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #202124;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.layout-login, .layout-admin, .layout-home, .layout-logout{
+    @apply grid-cols-1 grid-rows-2 gap-0 place-items-center bg-[#202124] mx-[200px] py-[100px]
+}
+.box-container {
+    @apply flex flex-col items-start relative bg-[#0E0E0E] p-8 rounded-3xl text-white w-full min-h-[384px]
+}
+
+
+/* FORM */
+form{
+    @apply mr-3
+}
+/* FOOTER */
+.buttons-area{
+    @apply absolute right-10 bottom-10 flex gap-5
+}
+.footer-links{
+    @apply bg-transparent border-none text-[#9aa0a6] p-0 hover:text-[#e8eaed]
+}
+/* BUTTONS */
+.transparent-button{
+    @apply py-3 px-5 rounded-3xl text-sm bg-transparent hover:bg-transparent border-0 text-[#A8C7FA] cursor-pointer transition-colors duration-300 ease-in-out mt-[10px] self-end hover:bg-[#A8C7FA] hover:opacity-70 hover:text-[#062E6F]
+}
+.solid-button{
+    @apply py-3 text-sm
+     px-5 bg-[#A8C7FA] border-0 rounded-3xl hover:bg-[#A8C7FA]
+    text-[#062E6F] cursor-pointer transition-colors duration-300 ease-in-out self-end hover:opacity-70
+}
+/* LOGIN */
+.input-style .mantine-TextInput-input{
+    @apply bg-[#0E0E0E] text-white border border-gray-300 focus:border-[#A8C7FA] focus:shadow-md focus:shadow-[#1A73E8];
+}

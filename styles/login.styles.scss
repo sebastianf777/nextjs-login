@@ -1,0 +1,15 @@
+/* HERO UI bug */
+.text-foreground {
+    color: white;
+}
+
+/* AUTOFILL BACKGROUND */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-text-fill-color: white !important;
+    background-color: #0E0E0E !important;
+    caret-color: white !important;
+}
