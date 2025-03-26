@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "name": "next-app-template",
  "version": "0.0.1",
  "private": true,
@@ -69,28 +68,4 @@
   "tailwindcss": "3.4.16",
   "typescript": "5.6.3"
  }
-=======
-  "name": "nodejs-server",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.13.8",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
-  },
-  "private": true,
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
->>>>>>> cfaaaa1c56c402f0bac7e7bd1cb6fc5d6077b81f
 }
