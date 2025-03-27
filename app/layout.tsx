@@ -12,10 +12,7 @@ import {
   MantineProvider,
   mantineHtmlProps,
 } from '@mantine/core'
-import {
-  LOCAL_STORAGE,
-  SESSION_EXPIRATION_TIME,
-} from '@/components/utils/utils.constants'
+import { LOCAL_STORAGE, SESSION_EXPIRATION_TIME } from '@/utils/utils.constants'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const router = useRouter()

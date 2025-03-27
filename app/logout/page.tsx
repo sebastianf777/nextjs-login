@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { LOCAL_STORAGE } from '@/components/utils/utils.constants'
+import { LOCAL_STORAGE } from '@/utils/utils.constants'
 import { toast } from 'react-hot-toast'
 import Image from 'next/image'
 import HeadingDescription from '@/components/global/heading-description/headingDescription'

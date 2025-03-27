@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { LOCAL_STORAGE } from '@/components/utils/utils.constants'
+import { LOCAL_STORAGE } from '@/utils/utils.constants'
 
 import PasswordForm from '@/components/login/password/password-form/password-form'
 

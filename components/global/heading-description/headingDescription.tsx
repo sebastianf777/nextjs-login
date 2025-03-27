@@ -1,7 +1,7 @@
 'use client'
 import { Avatar, Button } from '@mantine/core'
 import { useRouter, usePathname } from 'next/navigation'
-import { LOCAL_STORAGE } from '@/components/utils/utils.constants'
+import { LOCAL_STORAGE } from '@/utils/utils.constants'
 type HeadingDescriptionProps = {
   heading: string
   description?: string
