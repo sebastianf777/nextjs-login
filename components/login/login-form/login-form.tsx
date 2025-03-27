@@ -42,8 +42,6 @@ export default function LoginForm() {
           onChange={(e) => setUsername(e.target.value)}
           loading={loading}
         />
-        {/*// No estoy seguro de si esto bien // No estoy seguro de si esto*/}
-        {/* bien // No estoy seguro de si esto bien*/}
         <NavLink
           classNames={{
             root: 'bg-[#0E0E0E] text-[#A8C7FA] hover:bg-[#0E0E0E] px-0',
@@ -52,7 +50,9 @@ export default function LoginForm() {
           href={'/login/forgot?redirect=/login'}
           label={'¿Olvidaste el correo electrónico?'}
         />
-        <p className={'text-[#9aa0a6] mt-12 leading-[1.4] text-sm'}>
+        <p
+          className={'text-[#9aa0a6] mt-12 leading-[1.4] text-sm mb-20 lg:mb-0'}
+        >
           ¿Esta no es tu computadora? Usa el modo de invitado para navegar de
           forma privada.{' '}
           <span

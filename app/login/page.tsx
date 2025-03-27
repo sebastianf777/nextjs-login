@@ -13,7 +13,7 @@ export default function LoginPage() {
         width={35}
       />
 
-      <div className={'grid grid-cols-[7fr_7fr] gap-5 w-full'}>
+      <div className={'grid w-full grid-cols-1 lg:grid-cols-2'}>
         <HeadingDescription
           description={
             'Con tu Cuenta de Google. Esta cuenta estará disponible para otras apps de Google en el navegador.'
