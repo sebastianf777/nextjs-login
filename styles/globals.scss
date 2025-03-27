@@ -10,7 +10,7 @@ body {
 }
 
 .layout-login, .layout-admin, .layout-home, .layout-logout{
-    @apply grid-cols-1 grid-rows-2 gap-0 place-items-center bg-[#202124] mx-[200px] py-[100px]
+    @apply grid-cols-1 grid-rows-2 gap-0 place-items-center bg-[#202124] mx-10 lg:mx-[200px] py-10 lg:py-[100px]
 }
 .box-container {
     @apply flex flex-col items-start relative bg-[#0E0E0E] p-8 rounded-3xl text-white w-full min-h-[384px]

@@ -41,7 +41,7 @@ export default function LogoutPage() {
   if (error) throw error
 
   return (
-    <div className={'box-container'}>
+    <div className={'box-container '}>
       {loading ? (
         <Loader
           color={'blue'}
@@ -58,7 +58,7 @@ export default function LogoutPage() {
             src={'/assets/img/google-logo.png'}
             width={35}
           />
-          <div className={'grid grid-cols-[auto_1fr] gap-4 mt-4'}>
+          <div className={'grid grid-cols-1 lg:grid-cols-2 gap-5 mt-4'}>
             <HeadingDescription heading={'Te deslogueaste correctamente'} />
             <LogoutForm />
           </div>
